@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ponto de Venda</title>
+</head>
+<body>
+
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Pedidos</a></li>
+                <li><a href="consultar_pedidos.html">Consultar Pedidos</a></li>
+                <li><a href="pagina3.html">Página 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Conteúdo da página -->
+        <h1>Produtos</h1>
+    <ul id="product-list">
+        <li data-id="1" class="product-item">
+            <span class="product-name">Produto 1</span>
+            <span class="product-price">R$ 10.00</span>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </li>
+        <li data-id="2" class="product-item">
+            <span class="product-name">Produto 2</span>
+            <span class="product-price">R$ 15.00</span>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </li>
+        <li data-id="3" class="product-item">
+            <span class="product-name">Produto 3</span>
+            <span class="product-price">R$ 20.00</span>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </li>
+    </ul>
+
+    <h1>Carrinho de Compras</h1>
+      <ul id="cart-list">
+          <!-- Itens do carrinho serão exibidos aqui -->
+      </ul>
+      
+      <p>Total: <span id="cart-total">R$ 0.00</span></p>
+      
+      <!-- Botão "Finalizar Pedido" -->
+      <button id="checkout-button">Finalizar Pedido</button>
+    </main>
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
